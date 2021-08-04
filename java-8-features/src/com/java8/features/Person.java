@@ -2,9 +2,9 @@ package com.java8.features;
 
 public class Person {
 
-	String FirstName;
-	String LastName;
-	int age;
+	private String FirstName;
+	private String LastName;
+	private int age;
 	
 	public Person(String firstName, String lastName, int age) {
 		super();

@@ -16,3 +16,12 @@ public interface FunctionalInterfaceExample {
 	//It is not mandatory to add this, but it is good practice as it gives clue to the developer
 	public void justExample();
 }
+
+//Predicate -> It is Functional Interface
+//Java 8 has built in functions from the java.util.function and it provides some out of box interfaces that we use most of the times
+//example Predicate<T> => boolean valued function of one argument
+//if you want an interface that takes an object and has to return boolean, we can use Predicate interface
+
+
+//Consumer -> It is one more functional interface
+//it accepts one object and returns nothing
